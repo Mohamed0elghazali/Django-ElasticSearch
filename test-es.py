@@ -5,14 +5,15 @@ from elasticsearch_dsl import Search
 # Table ---> Index
 # Field ---> Document
 
-INDEX_NAME = 'index_1'
+INDEX_NAME = "index_1"
 
-ELASTIC_HOST = 'https://localhost:9200'
-USERNAME = 'elastic'
-PASSWORD = 'M1LG8BaqGa8QTiC_hd3-'
-SSL_CERTIFICATE = '4d55d25e86285f009861d8224772985ffd23720dda972aa76df73cddafa53411'
+ELASTIC_HOST = "https://localhost:9200"
+USERNAME = "elastic"
+PASSWORD = "M1LG8BaqGa8QTiC_hd3-"
 
-client = elasticsearch.Elasticsearch(hosts=[ELASTIC_HOST], basic_auth=(USERNAME, PASSWORD), verify_certs=False)
+client = elasticsearch.Elasticsearch(
+    hosts=[ELASTIC_HOST], basic_auth=(USERNAME, PASSWORD), verify_certs=False
+)
 
 # data_1 = {
 #     'id': 1,
@@ -33,13 +34,15 @@ client = elasticsearch.Elasticsearch(hosts=[ELASTIC_HOST], basic_auth=(USERNAME,
 
 # print(add_data_1)
 
-if __name__ == '__main__':
-    search_text = input('What do you want to search for: ')
-    fields = ['name', 'number', 'summary']
+if __name__ == "__main__":
+    search_text = input("What do you want to search for: ")
+    fields = ["name", "number", "summary"]
 
-    resutls = Search(index=INDEX_NAME) \
-                                    .using(client) \
-                                    .query('multi_match', fields=fields, fuzziness='AUTO', query=search_text)
+    resutls = (
+        Search(index=INDEX_NAME)
+        .using(client)
+        .query("multi_match", fields=fields, fuzziness="AUTO", query=search_text)
+    )
 
     for hit in resutls:
-        print(f'ID: {hit.id}, File_Name: {hit.name}')
+        print(f"ID: {hit.id}, File_Name: {hit.name}")

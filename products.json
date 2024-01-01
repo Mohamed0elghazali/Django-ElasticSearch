@@ -1,0 +1,78 @@
+[
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields":{
+            "title": "PlayStation 5 Console -  Marvel’s Spider-Man 2 Bundle (slim)",
+            "description": "Bundle includes Marvel’s Spider-Man 2 full game digital voucher",
+            "timestamp": "2023-12-31 06:30:40",
+            "publish_at": "2023-12-31 06:30:40"
+        }
+    },
+
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields":{
+            "title": "Meta Quest 3 128GB— Breakthrough Mixed Reality — Powerful Performance — Asgard’s Wrath 2 Bundle            ",
+            "description": "Get the epic new Asgard’s Wrath 2 included (a $59.99 value)* when you buy Meta Quest 3 128GB*.            ",
+            "timestamp": "2023-12-31 06:30:40",
+            "publish_at": "2023-12-31 06:30:40"
+        }
+    },
+
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields":{
+            "title": "ريدراجون ماوس العاب لاسلكي للالعاب بدقة 8000 نقطة لكل بوصة، ماوس العاب الكمبيوتر مع زر اطلاق نار واضاءة خلفية RGB مريحة قابلة للبرمجة، قابلة لاعادة الشحن، 70 ساعة لاجهزة ويندوز وماك جيمر، اسود            ",
+            "description": "⚡️【ماوس ألعاب قابل للبرمجة بالكامل】- يتيح لك ماوس الألعاب اللاسلكي هذا إعادة تعيين الأزرار وتعيين وظائف الماكرو المعقدة وتغيير تأثيرات الإضاءة الخلفية RGB والسرعة، وضبط نقطة لكل بوصة في نطاق واسع (250-8000) ليناسب احتياجاتك المختلفة عبر محرك ريدراغون، إنه خيار جيد للألعاب والعمل. برنامج تشغيل الألعاب متوافق مع ويندوز فقط.            ",
+            "timestamp": "2023-12-31 06:30:40",
+            "publish_at": "2023-12-31 06:30:40"
+        }
+    },
+
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields":{
+            "title": "هاوكسبيل كيبورد العاب ميكانيكي سلكي V1 من سكوربيون - تعمل باللمس والنقر - اضاءة RGB رائعة، مفاتيح قابلة للتخصيص ووظيفة الوسائط المتعددة، 104 مفتاح            ",
+            "description": "مفاتيح تبديل ميكانيكية فائقة السرعة - توفر تجربة لمس سهلة للمستخدم. استجابة فورية ومعدل تحديث - 50 غرام من قوة التشغيل لظروف مثالية للكتابة أو الألعاب التي تتطلب أعلى دقة.            ",
+            "timestamp": "2023-12-31 06:30:40",
+            "publish_at": "2023-12-31 06:30:40"
+        }
+    },
+
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields":{
+            "title": "NBA 2K24 Kobe Bryant Edition - PlayStation 4            ",
+            "description": "MANAGE YOUR MyTEAM: The classic card-collecting mode is back and loaded with endless hours of customizable fun. Draw from the past and present using today’s All-Stars and all-time legends to form a squad capable of dominating single player and multiplayer modes.            ",
+            "timestamp": "2023-12-31 06:30:40",
+            "publish_at": "2023-12-31 06:30:40"
+        }
+    },
+
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields":{
+            "title": "AceGamer Wireless Controller for PS4, White Crack Custom Design with RGB Light,1000mAh Battery and 3.5mm Audio Jack, V2 Gamepad Joystick Compatible with PS4/Slim/Pro and Windows PC! (White-Light Up)            ",
+            "description": "🎮【OLED Custom Design】White cracks are all over the front shell of the controller, RGB lights hidden on the motherboard will glow through these cracks. With additive color models that reproduce a broad array of colors by combining different intensities of red, green, and blue light, form a cool game lighting atmosphere.            ",
+            "timestamp": "2023-12-31 06:30:40",
+            "publish_at": "2023-12-31 06:30:40"
+        }
+    },
+
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields":{
+            "title": "YCCTEAM Wireless Game Controller Compatible with PS 4 Slim with Enhanced Dual Vibration/Analog Sticks/6-Axis Motion Sensor, Compatible with PC/Windows 7/8/10/11            ",
+            "description": "[Replacement FOR GAME CONTROLLER]: New Design! The wireless controller is compatible with Pro/Slim/PC/Android/IOS/Mac (Note: Connecting to PC needs to install receiver, not included). The wireless controller improve motor sensing, gyro sensor function and enhance the comfort of shape, bring absolute control to players and improve accuracy at critical moments.            ",
+            "timestamp": "2023-12-31 06:30:40",
+            "publish_at": "2023-12-31 06:30:40"
+        }
+    }
+]
